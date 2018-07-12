@@ -1,0 +1,6 @@
+
+$('.recomm-movie').html(`
+<%@movies.each do |movie|%>
+<span class="badge badge-dark"><%= movie.title %></span> |
+<%end%>
+`);
