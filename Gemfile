@@ -73,3 +73,10 @@ gem 'summernote-rails', '~> 0.8.10.0'
 
 # admin page
 gem 'rails_admin'
+
+# google login
+gem 'omniauth-google-oauth2'
+
+gem 'figaro'
+
+gem 'rest-client'
